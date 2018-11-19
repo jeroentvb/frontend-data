@@ -1,0 +1,4750 @@
+[
+    {
+        "word": "aan",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Aan de poort van de hel",
+                "author": "Fred de Heij"
+            }
+        ]
+    },
+    {
+        "word": "aan",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Aan de poort van de hel",
+                "author": "Fred de Heij"
+            }
+        ]
+    },
+    {
+        "word": "aasgieren",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Aasgieren en outlaws",
+                "author": "Bruno Brindisi"
+            }
+        ]
+    },
+    {
+        "word": "abby",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Abby en Blake",
+                "author": "Debra Eliza Mane"
+            }
+        ]
+    },
+    {
+        "word": "abraham",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dossier Abraham Lincoln, 1861",
+                "author": "Damour"
+            }
+        ]
+    },
+    {
+        "word": "afvallige",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De afvallige duivels van Nevada",
+                "author": "Augustin Lebon"
+            }
+        ]
+    },
+    {
+        "word": "allan",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dossier Allan Pinkerton, 1884",
+                "author": "Damour"
+            }
+        ]
+    },
+    {
+        "word": "als",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Sterven als een hond in de sneeuw",
+                "author": "Yves Swolfs"
+            }
+        ]
+    },
+    {
+        "word": "altijd",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Vrij voor altijd",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "andere",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De ballade van de Daltons en andere verhalen",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "angela",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Angela",
+                "author": "Olivier Vatine"
+            }
+        ]
+    },
+    {
+        "word": "angst",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het moeras van de angst",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "antwoordt",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Jolly Jumper antwoordt niet meer",
+                "author": "Guillaume Bouzard"
+            }
+        ]
+    },
+    {
+        "word": "apachenopperhoofd",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou, het grote Apachenopperhoofd",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "appaloosa's",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de Appaloosa's",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "arend",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De schaduw van de arend",
+                "author": "Benoãit Sokal"
+            }
+        ]
+    },
+    {
+        "word": "arendsjong",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het arendsjong",
+                "author": "Hans G. Kresse"
+            }
+        ]
+    },
+    {
+        "word": "atlanta",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De man van Atlanta",
+                "author": "Jordi Bernet"
+            }
+        ]
+    },
+    {
+        "word": "austin",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Austin",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "avondrood",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Meridiaan van bloed, of Het avondrood in het westen",
+                "author": "Cormac McCarthy"
+            }
+        ]
+    },
+    {
+        "word": "avondzon",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Warme avondzon",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "avonturen",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Avonturen in het Wilde Westen",
+                "author": "Karl May"
+            },
+            {
+                "title": "De verdere avonturen van Winnetou en Old Shatterhand",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "avontuur",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een beertje op avontuur",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "ballade",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De ballade van Kleintje Mason",
+                "author": "Gerben Graddesz Hellinga"
+            },
+            {
+                "title": "De ballade van de Daltons en andere verhalen",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "bandiet",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De eenarmige bandiet",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "bankroof",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De bankroof",
+                "author": "Lida Dijkstra"
+            }
+        ]
+    },
+    {
+        "word": "barre",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het barre land",
+                "author": "Scott Phillips"
+            }
+        ]
+    },
+    {
+        "word": "bedoeïenen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou bij de Bedoeïenen",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "beeld",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een beeld van een jongen",
+                "author": "Frederik Peeters"
+            }
+        ]
+    },
+    {
+        "word": "beer",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De wilde jongen en de beer",
+                "author": "Käthe Recheis"
+            },
+            {
+                "title": "De klauwen van de beer",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "beertje",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een beertje op avontuur",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "belle",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Belle Starr",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "beloofde",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het beloofde land",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "bergen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De strijd in de Zwarte Bergen",
+                "author": "Hans G. Kresse"
+            }
+        ]
+    },
+    {
+        "word": "berggeiten",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de berggeiten",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "bighorn",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De slag bij Little Bighorn",
+                "author": "Paolo Eleuteri Serpieri"
+            }
+        ]
+    },
+    {
+        "word": "bill",
+        "amount": 4,
+        "titles": [
+            {
+                "title": "Stinky Bill speelt poker",
+                "author": "Martine Letterie"
+            },
+            {
+                "title": "Cowboy Stinky Bill",
+                "author": "Martine Letterie"
+            },
+            {
+                "title": "Stinky Bill heeft goudkoorts",
+                "author": "Martine Letterie"
+            },
+            {
+                "title": "Stinky Bill kent geen genade",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "billie",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Billie",
+                "author": "Quentin Gréban"
+            }
+        ]
+    },
+    {
+        "word": "billy",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Billy de Kip",
+                "author": "Marcel van Driel"
+            },
+            {
+                "title": "Billy the Kid",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "bizon",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de witte bizon",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "bizonjagers",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De bizonjagers",
+                "author": "Lida Dijkstra"
+            }
+        ]
+    },
+    {
+        "word": "bizons?",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Waar blijven de bizons?",
+                "author": "Marion van de Coolwijk"
+            }
+        ]
+    },
+    {
+        "word": "black",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Black & white",
+                "author": "Igor Kordey"
+            }
+        ]
+    },
+    {
+        "word": "blad,",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dansend Blad, het indianenmeisje",
+                "author": "Géraldine Elschner"
+            }
+        ]
+    },
+    {
+        "word": "blake",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Abby en Blake",
+                "author": "Debra Eliza Mane"
+            }
+        ]
+    },
+    {
+        "word": "blanke",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De blanke medicijnman",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "blauw",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Blauw bloed bij de Blauwen",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "blauwbloezen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De Blauwbloezen",
+                "author": "Salvérius"
+            }
+        ]
+    },
+    {
+        "word": "blauwe",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Chili met blauwe bonen",
+                "author": "Paul Salomone"
+            }
+        ]
+    },
+    {
+        "word": "blauwen",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Blauw bloed bij de Blauwen",
+                "author": "Willy Lambil"
+            },
+            {
+                "title": "De Blauwen in de mist",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "blijven",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Waar blijven de bizons?",
+                "author": "Marion van de Coolwijk"
+            }
+        ]
+    },
+    {
+        "word": "bliksem",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het geheim van Kleine Bliksem",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "bloed",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Blauw bloed bij de Blauwen",
+                "author": "Willy Lambil"
+            },
+            {
+                "title": "Modder en bloed",
+                "author": "Hermann"
+            }
+        ]
+    },
+    {
+        "word": "bloed,",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Meridiaan van bloed, of Het avondrood in het westen",
+                "author": "Cormac McCarthy"
+            }
+        ]
+    },
+    {
+        "word": "bloedige",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De bloedige grens",
+                "author": "Michel Rouge"
+            }
+        ]
+    },
+    {
+        "word": "blueberry",
+        "amount": 4,
+        "titles": [
+            {
+                "title": "Blueberry",
+                "author": "Giraud"
+            },
+            {
+                "title": "Blueberry",
+                "author": "Giraud"
+            },
+            {
+                "title": "Blueberry",
+                "author": "Giraud"
+            },
+            {
+                "title": "Blueberry",
+                "author": "Giraud"
+            }
+        ]
+    },
+    {
+        "word": "boem",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Willy Boem",
+                "author": "David Vlietstra"
+            },
+            {
+                "title": "Willy Boem en de Duistere Cowboy",
+                "author": "David Vlietstra"
+            }
+        ]
+    },
+    {
+        "word": "bonen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Chili met blauwe bonen",
+                "author": "Paul Salomone"
+            }
+        ]
+    },
+    {
+        "word": "boom",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Eenzame Wolf en de sprekende boom",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "bouncer",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Bouncer",
+                "author": "Boucq"
+            },
+            {
+                "title": "Bouncer",
+                "author": "Boucq"
+            }
+        ]
+    },
+    {
+        "word": "broer",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Mijn broer de indiaan",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "brug",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De brug over de Mississipi",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "buddy",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Buddy Longway",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "bushwackers",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De bushwackers van Missouri",
+                "author": "Bruno Brindisi"
+            }
+        ]
+    },
+    {
+        "word": "butcher's",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Butcher's Crossing",
+                "author": "John Williams"
+            }
+        ]
+    },
+    {
+        "word": "camp",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De reus van Sutter Camp",
+                "author": "Ralph Meyer"
+            }
+        ]
+    },
+    {
+        "word": "cannibal",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Cannibal Mary",
+                "author": "Daniel Brecht"
+            }
+        ]
+    },
+    {
+        "word": "child",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Magic child",
+                "author": "Nicolas Dumontheuil"
+            }
+        ]
+    },
+    {
+        "word": "chili",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Chili met blauwe bonen",
+                "author": "Paul Salomone"
+            }
+        ]
+    },
+    {
+        "word": "city",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dalton City",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "colorado",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Colorado story",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "corral",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "O.K. Corral",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "cowboy",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Kimmie Cowboy",
+                "author": "Marjet Huiberts"
+            },
+            {
+                "title": "Willy Boem en de Duistere Cowboy",
+                "author": "David Vlietstra"
+            },
+            {
+                "title": "Cowboy Stinky Bill",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "cowboys",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Texas cowboys",
+                "author": "Bonhomme"
+            },
+            {
+                "title": "Indianen en cowboys",
+                "author": "Olav Marahrens"
+            },
+            {
+                "title": "Texas cowboys",
+                "author": "Bonhomme"
+            }
+        ]
+    },
+    {
+        "word": "crossing",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Butcher's Crossing",
+                "author": "John Williams"
+            }
+        ]
+    },
+    {
+        "word": "daan",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Daan de machinist",
+                "author": "Fiona Rempt"
+            }
+        ]
+    },
+    {
+        "word": "dag",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een dag van stilte",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "daisy",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Daisy Town",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "dalton",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Dalton City",
+                "author": "Morris"
+            },
+            {
+                "title": "De oompjes Dalton",
+                "author": "Achdé"
+            },
+            {
+                "title": "Ma Dalton",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "daltons",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "De Daltons verliezen hun geheugen",
+                "author": "Morris"
+            },
+            {
+                "title": "De ballade van de Daltons en andere verhalen",
+                "author": "Morris"
+            },
+            {
+                "title": "Een strop voor de Daltons",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "dans",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De dans van de gieren",
+                "author": "Ralph Meyer"
+            }
+        ]
+    },
+    {
+        "word": "dansend",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dansend Blad, het indianenmeisje",
+                "author": "Géraldine Elschner"
+            }
+        ]
+    },
+    {
+        "word": "deadline",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Deadline",
+                "author": "Rossi"
+            }
+        ]
+    },
+    {
+        "word": "der",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De laatste der Mohikanen",
+                "author": "James Fenimore Cooper"
+            }
+        ]
+    },
+    {
+        "word": "desert",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Painted desert",
+                "author": "Angelo Stano"
+            }
+        ]
+    },
+    {
+        "word": "dick",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dick Digger's goudmijn",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "die",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "A million ways to die in the west",
+                "author": "Seth MacFarlane"
+            },
+            {
+                "title": "De man die twee keer is gestorven",
+                "author": "Gilles Mezzomo"
+            }
+        ]
+    },
+    {
+        "word": "digger's",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dick Digger's goudmijn",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "dik",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wie niet dik is, moet slim zijn",
+                "author": "Tibet"
+            }
+        ]
+    },
+    {
+        "word": "django",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Django unchained",
+                "author": "R.M. Guéra"
+            }
+        ]
+    },
+    {
+        "word": "dode",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De eerste dode",
+                "author": "Jesús Alonso"
+            }
+        ]
+    },
+    {
+        "word": "dodemansrit",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dodemansrit",
+                "author": "Civitelli"
+            }
+        ]
+    },
+    {
+        "word": "dood",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Winnetou's dood",
+                "author": "Karl May"
+            },
+            {
+                "title": "De dood van Winnetou",
+                "author": "Karl May"
+            },
+            {
+                "title": "Tot in de dood",
+                "author": "Fred de Heij"
+            }
+        ]
+    },
+    {
+        "word": "doodbidder,",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De doodbidder, de zwerver en de moordenaar",
+                "author": "Julien Maffre"
+            }
+        ]
+    },
+    {
+        "word": "dorian",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het geheim van Dr Dorian",
+                "author": "Hans G. Kresse"
+            }
+        ]
+    },
+    {
+        "word": "dossier",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Dossier Abraham Lincoln, 1861",
+                "author": "Damour"
+            },
+            {
+                "title": "Dossier Allan Pinkerton, 1884",
+                "author": "Damour"
+            }
+        ]
+    },
+    {
+        "word": "dr",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het geheim van Dr Dorian",
+                "author": "Hans G. Kresse"
+            }
+        ]
+    },
+    {
+        "word": "drakentand",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Drakentand",
+                "author": "Michael Crichton"
+            }
+        ]
+    },
+    {
+        "word": "dromenjagers",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dromenjagers",
+                "author": "Richard Wagamese"
+            }
+        ]
+    },
+    {
+        "word": "duistere",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Willy Boem en de Duistere Cowboy",
+                "author": "David Vlietstra"
+            }
+        ]
+    },
+    {
+        "word": "duivels",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De afvallige duivels van Nevada",
+                "author": "Augustin Lebon"
+            }
+        ]
+    },
+    {
+        "word": "duivelsranch",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De duivelsranch",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "dust",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dust",
+                "author": "Giraud"
+            }
+        ]
+    },
+    {
+        "word": "eenarmige",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De eenarmige bandiet",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "eens",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Eens een killer...",
+                "author": "Hermann"
+            }
+        ]
+    },
+    {
+        "word": "eenzame",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Eenzame Wolf en de sprekende boom",
+                "author": "S.M. van der Galiën"
+            },
+            {
+                "title": "Eenzame Wolf",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "eerste",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Het eerste ritje",
+                "author": "Derib"
+            },
+            {
+                "title": "De eerste dode",
+                "author": "Jesús Alonso"
+            }
+        ]
+    },
+    {
+        "word": "eik",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De pratende eik",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "erfenis",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De erfenis van Rataplan",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "evangelisten",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De vier evangelisten",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "falls",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Redemption Falls",
+                "author": "Joseph O'Connor"
+            }
+        ]
+    },
+    {
+        "word": "familiemoorden",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Familiemoorden",
+                "author": "Igor Kordey"
+            }
+        ]
+    },
+    {
+        "word": "fatale",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het fatale goud",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "fingers",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Fingers",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "galg",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Voor galg en rad",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "galveston",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Storm over Galveston",
+                "author": "Massimo Rotundo"
+            }
+        ]
+    },
+    {
+        "word": "garrett",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Garrett",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "gebroeders",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De gebroeders Sisters",
+                "author": "Patrick DeWitt"
+            }
+        ]
+    },
+    {
+        "word": "geen",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Geen land voor oude mannen",
+                "author": "Cormac McCarthy"
+            },
+            {
+                "title": "Stinky Bill kent geen genade",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "geheim",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Het geheim van Kleine Bliksem",
+                "author": "Derib"
+            },
+            {
+                "title": "Het geheim van Dr Dorian",
+                "author": "Hans G. Kresse"
+            }
+        ]
+    },
+    {
+        "word": "geheimzinnige",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De geheimzinnige kolonel",
+                "author": "Jaap-Wim van der Horst"
+            }
+        ]
+    },
+    {
+        "word": "geheugen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De Daltons verliezen hun geheugen",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "geld",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Je geld of je leven!",
+                "author": "Els Rooijers"
+            }
+        ]
+    },
+    {
+        "word": "gemaskeerde",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Gemaskeerde liefde",
+                "author": "Carol Cox"
+            }
+        ]
+    },
+    {
+        "word": "genade",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Stinky Bill kent geen genade",
+                "author": "Martine Letterie"
+            },
+            {
+                "title": "Zonder genade",
+                "author": "Yves Swolfs"
+            }
+        ]
+    },
+    {
+        "word": "gestorven",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De man die twee keer is gestorven",
+                "author": "Gilles Mezzomo"
+            }
+        ]
+    },
+    {
+        "word": "getuige",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De zwijgende getuige",
+                "author": "Jeff Broeckx"
+            }
+        ]
+    },
+    {
+        "word": "gieren",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De dans van de gieren",
+                "author": "Ralph Meyer"
+            },
+            {
+                "title": "De gieren van het Rotsgebergte",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "goud",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Het goud van Morrison",
+                "author": "Daniel Brecht"
+            },
+            {
+                "title": "Vervloekt goud",
+                "author": "Paolo Eleuteri Serpieri"
+            },
+            {
+                "title": "Het fatale goud",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "goudeerlijk",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Goudeerlijk",
+                "author": "Minck Oosterveer"
+            }
+        ]
+    },
+    {
+        "word": "gouden",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De indiaan met het gouden hart",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "De gouden jaguar",
+                "author": "Gerben Graddesz Hellinga"
+            }
+        ]
+    },
+    {
+        "word": "goudgroef",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De ramp van Goudgroef",
+                "author": "Lida Dijkstra"
+            }
+        ]
+    },
+    {
+        "word": "goudkoorts",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Goudkoorts",
+                "author": "Gerben Graddesz Hellinga"
+            },
+            {
+                "title": "Goudkoorts",
+                "author": "Lida Dijkstra"
+            },
+            {
+                "title": "Stinky Bill heeft goudkoorts",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "goudmijn",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dick Digger's goudmijn",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "goudvreter",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De goudvreter",
+                "author": "Ralph Meyer"
+            }
+        ]
+    },
+    {
+        "word": "gras",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wuivend gras",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "grens",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De bloedige grens",
+                "author": "Michel Rouge"
+            }
+        ]
+    },
+    {
+        "word": "grenstrilogie",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De grenstrilogie",
+                "author": "Cormac McCarthy"
+            }
+        ]
+    },
+    {
+        "word": "grit",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "True grit",
+                "author": "Charles Portis"
+            }
+        ]
+    },
+    {
+        "word": "groene",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Groene vingers",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "grootvaders",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Grootvaders reisdoel",
+                "author": "Craig Strete"
+            }
+        ]
+    },
+    {
+        "word": "grootvorst",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De grootvorst",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "grote",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou, het grote Apachenopperhoofd",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "hart",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De indiaan met het gouden hart",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "Verzegeld hart",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "heeft",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Stinky Bill heeft goudkoorts",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "hel",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Aan de poort van de hel",
+                "author": "Fred de Heij"
+            }
+        ]
+    },
+    {
+        "word": "held",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De held en de legende",
+                "author": "Paolo Eleuteri Serpieri"
+            }
+        ]
+    },
+    {
+        "word": "heuvels",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De zwarte heuvels",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "homesman",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De homesman",
+                "author": "Glendon Swarthout"
+            }
+        ]
+    },
+    {
+        "word": "hond",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Sterven als een hond in de sneeuw",
+                "author": "Yves Swolfs"
+            }
+        ]
+    },
+    {
+        "word": "hoogheid",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Zijne Keizerlijke Hoogheid Smith",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "hotemetotem",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Hotemetotem",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "hun",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De Daltons verliezen hun geheugen",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "ieder",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Ieder voor zich",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "indiaan",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "De indiaan met het gouden hart",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "De kleine indiaan",
+                "author": "Margaret Wise Brown"
+            },
+            {
+                "title": "Mijn broer de indiaan",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "indianen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Indianen en cowboys",
+                "author": "Olav Marahrens"
+            }
+        ]
+    },
+    {
+        "word": "indianenmeisje",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dansend Blad, het indianenmeisje",
+                "author": "Géraldine Elschner"
+            }
+        ]
+    },
+    {
+        "word": "integraal",
+        "amount": 4,
+        "titles": [
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "is",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Maar waar is Linus toch?",
+                "author": "Griffon"
+            },
+            {
+                "title": "De man die twee keer is gestorven",
+                "author": "Gilles Mezzomo"
+            }
+        ]
+    },
+    {
+        "word": "is,",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wie niet dik is, moet slim zijn",
+                "author": "Tibet"
+            }
+        ]
+    },
+    {
+        "word": "jacob",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Jacob en June",
+                "author": "Debra Eliza Mane"
+            }
+        ]
+    },
+    {
+        "word": "jager",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De schrijver, de rover en de jager",
+                "author": "Leif Enger"
+            }
+        ]
+    },
+    {
+        "word": "jaguar",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De gouden jaguar",
+                "author": "Gerben Graddesz Hellinga"
+            }
+        ]
+    },
+    {
+        "word": "je",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Je geld of je leven!",
+                "author": "Els Rooijers"
+            }
+        ]
+    },
+    {
+        "word": "jolly",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Jolly Jumper op vrijersvoeten",
+                "author": "Achdé"
+            },
+            {
+                "title": "Jolly Jumper antwoordt niet meer",
+                "author": "Guillaume Bouzard"
+            }
+        ]
+    },
+    {
+        "word": "jongen",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De wilde jongen en de beer",
+                "author": "Käthe Recheis"
+            },
+            {
+                "title": "Een beeld van een jongen",
+                "author": "Frederik Peeters"
+            }
+        ]
+    },
+    {
+        "word": "jumper",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Jolly Jumper op vrijersvoeten",
+                "author": "Achdé"
+            },
+            {
+                "title": "Jolly Jumper antwoordt niet meer",
+                "author": "Guillaume Bouzard"
+            }
+        ]
+    },
+    {
+        "word": "june",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Jacob en June",
+                "author": "Debra Eliza Mane"
+            }
+        ]
+    },
+    {
+        "word": "karavaan",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De karavaan",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "karl",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Karl May's Winnetou",
+                "author": "Karl May"
+            },
+            {
+                "title": "Karl May's Winnetou",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "keer",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De man die twee keer is gestorven",
+                "author": "Gilles Mezzomo"
+            }
+        ]
+    },
+    {
+        "word": "keizerlijke",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Zijne Keizerlijke Hoogheid Smith",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "kent",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Stinky Bill kent geen genade",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "kid",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Billy the Kid",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "kille",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De kille woede van de storm",
+                "author": "Benoît Sokal"
+            }
+        ]
+    },
+    {
+        "word": "killer...",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Eens een killer...",
+                "author": "Hermann"
+            }
+        ]
+    },
+    {
+        "word": "kimmie",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Kimmie Cowboy",
+                "author": "Marjet Huiberts"
+            }
+        ]
+    },
+    {
+        "word": "kip",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Billy de Kip",
+                "author": "Marcel van Driel"
+            }
+        ]
+    },
+    {
+        "word": "klauwen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De klauwen van de beer",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "kleine",
+        "amount": 4,
+        "titles": [
+            {
+                "title": "De kleine indiaan",
+                "author": "Margaret Wise Brown"
+            },
+            {
+                "title": "Kleine Maan",
+                "author": "Winfried Wolf"
+            },
+            {
+                "title": "Het geheim van Kleine Bliksem",
+                "author": "Derib"
+            },
+            {
+                "title": "Kleine Trent",
+                "author": "Leo"
+            }
+        ]
+    },
+    {
+        "word": "kleintje",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De ballade van Kleintje Mason",
+                "author": "Gerben Graddesz Hellinga"
+            }
+        ]
+    },
+    {
+        "word": "klondike",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Klondike",
+                "author": "Jean-Marc Stalner"
+            }
+        ]
+    },
+    {
+        "word": "klopjacht",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De klopjacht",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "knagers",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Vier knagers in het Wilde Westen",
+                "author": "Geronimo Stilton"
+            }
+        ]
+    },
+    {
+        "word": "kolonel",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De geheimzinnige kolonel",
+                "author": "Jaap-Wim van der Horst"
+            }
+        ]
+    },
+    {
+        "word": "koningen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De koningen van de prairie",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "krachtmeting",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Krachtmeting in het noorden",
+                "author": "Giulio de Vita"
+            }
+        ]
+    },
+    {
+        "word": "kunstschilder",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De kunstschilder",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "laatste",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De laatste der Mohikanen",
+                "author": "James Fenimore Cooper"
+            }
+        ]
+    },
+    {
+        "word": "land",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Het beloofde land",
+                "author": "Achdé"
+            },
+            {
+                "title": "Geen land voor oude mannen",
+                "author": "Cormac McCarthy"
+            },
+            {
+                "title": "Het barre land",
+                "author": "Scott Phillips"
+            }
+        ]
+    },
+    {
+        "word": "lasso",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Lasso mortale",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "leerling-cowboy",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De leerling-cowboy",
+                "author": "Achdâe"
+            }
+        ]
+    },
+    {
+        "word": "legende",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De held en de legende",
+                "author": "Paolo Eleuteri Serpieri"
+            }
+        ]
+    },
+    {
+        "word": "lelietuin",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De lelietuin",
+                "author": "Fabrice Jarzaguet"
+            }
+        ]
+    },
+    {
+        "word": "leven!",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Je geld of je leven!",
+                "author": "Els Rooijers"
+            }
+        ]
+    },
+    {
+        "word": "liefde",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Gemaskeerde liefde",
+                "author": "Carol Cox"
+            }
+        ]
+    },
+    {
+        "word": "lincoln,",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dossier Abraham Lincoln, 1861",
+                "author": "Damour"
+            }
+        ]
+    },
+    {
+        "word": "linus",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Maar waar is Linus toch?",
+                "author": "Griffon"
+            }
+        ]
+    },
+    {
+        "word": "little",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De slag bij Little Bighorn",
+                "author": "Paolo Eleuteri Serpieri"
+            }
+        ]
+    },
+    {
+        "word": "lobo",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het teken van de lobo",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "longway",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Buddy Longway",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "los",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een steekje los bij Stark",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "lucky",
+        "amount": 7,
+        "titles": [
+            {
+                "title": "Lucky Luke tegen Pinkerton",
+                "author": "Achdé"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "De moordenaar van Lucky Luke",
+                "author": "Matthieu Bonhomme"
+            },
+            {
+                "title": "De verloofde van Lucky Luke",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "luke",
+        "amount": 7,
+        "titles": [
+            {
+                "title": "Lucky Luke tegen Pinkerton",
+                "author": "Achdé"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "De moordenaar van Lucky Luke",
+                "author": "Matthieu Bonhomme"
+            },
+            {
+                "title": "De verloofde van Lucky Luke",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            },
+            {
+                "title": "Lucky Luke integraal",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "ma",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Ma Dalton",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "maan",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Kleine Maan",
+                "author": "Winfried Wolf"
+            },
+            {
+                "title": "Een nieuwe naam voor Volle Maan",
+                "author": "Arend van Dam"
+            }
+        ]
+    },
+    {
+        "word": "maar",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Maar waar is Linus toch?",
+                "author": "Griffon"
+            }
+        ]
+    },
+    {
+        "word": "machinist",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Daan de machinist",
+                "author": "Fiona Rempt"
+            }
+        ]
+    },
+    {
+        "word": "magic",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Magic child",
+                "author": "Nicolas Dumontheuil"
+            }
+        ]
+    },
+    {
+        "word": "man",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "De man van Washington",
+                "author": "Achdé"
+            },
+            {
+                "title": "De man van Atlanta",
+                "author": "Jordi Bernet"
+            },
+            {
+                "title": "De man die twee keer is gestorven",
+                "author": "Gilles Mezzomo"
+            }
+        ]
+    },
+    {
+        "word": "mannen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Geen land voor oude mannen",
+                "author": "Cormac McCarthy"
+            }
+        ]
+    },
+    {
+        "word": "mary",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Cannibal Mary",
+                "author": "Daniel Brecht"
+            }
+        ]
+    },
+    {
+        "word": "mason",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De ballade van Kleintje Mason",
+                "author": "Gerben Graddesz Hellinga"
+            }
+        ]
+    },
+    {
+        "word": "may's",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Karl May's Winnetou",
+                "author": "Karl May"
+            },
+            {
+                "title": "Karl May's Winnetou",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "medicijnman",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De blanke medicijnman",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "meer",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Jolly Jumper antwoordt niet meer",
+                "author": "Guillaume Bouzard"
+            }
+        ]
+    },
+    {
+        "word": "mensenjager",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "In de val van de mensenjager",
+                "author": "W. Vandersteen"
+            }
+        ]
+    },
+    {
+        "word": "meridiaan",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Meridiaan van bloed, of Het avondrood in het westen",
+                "author": "Cormac McCarthy"
+            }
+        ]
+    },
+    {
+        "word": "met",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De indiaan met het gouden hart",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "Chili met blauwe bonen",
+                "author": "Paul Salomone"
+            }
+        ]
+    },
+    {
+        "word": "mijn",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Mijn broer de indiaan",
+                "author": "Willy Lambil"
+            },
+            {
+                "title": "De verlaten mijn",
+                "author": "Jijé"
+            }
+        ]
+    },
+    {
+        "word": "million",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "A million ways to die in the west",
+                "author": "Seth MacFarlane"
+            }
+        ]
+    },
+    {
+        "word": "mississipi",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De brug over de Mississipi",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "missouri",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De bushwackers van Missouri",
+                "author": "Bruno Brindisi"
+            }
+        ]
+    },
+    {
+        "word": "mist",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De Blauwen in de mist",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "modder",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Modder en bloed",
+                "author": "Hermann"
+            }
+        ]
+    },
+    {
+        "word": "moederbeer",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de moederbeer",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "moeras",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het moeras van de angst",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "moet",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wie niet dik is, moet slim zijn",
+                "author": "Tibet"
+            }
+        ]
+    },
+    {
+        "word": "mohikanen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De laatste der Mohikanen",
+                "author": "James Fenimore Cooper"
+            }
+        ]
+    },
+    {
+        "word": "mooie",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Mooie schurk",
+                "author": "Christophe Blain"
+            }
+        ]
+    },
+    {
+        "word": "moordenaar",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De moordenaar van Lucky Luke",
+                "author": "Matthieu Bonhomme"
+            },
+            {
+                "title": "De doodbidder, de zwerver en de moordenaar",
+                "author": "Julien Maffre"
+            }
+        ]
+    },
+    {
+        "word": "morpheus",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Morpheus",
+                "author": "Benoît Blary"
+            }
+        ]
+    },
+    {
+        "word": "morrison",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het goud van Morrison",
+                "author": "Daniel Brecht"
+            }
+        ]
+    },
+    {
+        "word": "mortale",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Lasso mortale",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "muizen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Vier muizen in het Wilde Westen",
+                "author": "Geronimo Stilton"
+            }
+        ]
+    },
+    {
+        "word": "mustang",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De zwarte mustang",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "naam",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een nieuwe naam voor Volle Maan",
+                "author": "Arend van Dam"
+            }
+        ]
+    },
+    {
+        "word": "nachtloper",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De nachtloper",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "nevada",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De afvallige duivels van Nevada",
+                "author": "Augustin Lebon"
+            }
+        ]
+    },
+    {
+        "word": "niet",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Jolly Jumper antwoordt niet meer",
+                "author": "Guillaume Bouzard"
+            },
+            {
+                "title": "Wie niet dik is, moet slim zijn",
+                "author": "Tibet"
+            }
+        ]
+    },
+    {
+        "word": "nieuwe",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een nieuwe naam voor Volle Maan",
+                "author": "Arend van Dam"
+            }
+        ]
+    },
+    {
+        "word": "noorden",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Krachtmeting in het noorden",
+                "author": "Giulio de Vita"
+            }
+        ]
+    },
+    {
+        "word": "o.k.",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "O.K. Corral",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "of",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Je geld of je leven!",
+                "author": "Els Rooijers"
+            },
+            {
+                "title": "Meridiaan van bloed, of Het avondrood in het westen",
+                "author": "Cormac McCarthy"
+            }
+        ]
+    },
+    {
+        "word": "old",
+        "amount": 5,
+        "titles": [
+            {
+                "title": "Winnetou ontmoet Old Shatterhand",
+                "author": "Karl May"
+            },
+            {
+                "title": "Old Surehand",
+                "author": "Karl May"
+            },
+            {
+                "title": "De verdere avonturen van Winnetou en Old Shatterhand",
+                "author": "Karl May"
+            },
+            {
+                "title": "Old Shatterhand verslaat Sioux",
+                "author": "Karl May"
+            },
+            {
+                "title": "Old Surehand",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "om",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Tand om tand",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "ontmoet",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou ontmoet Old Shatterhand",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "ontwaken",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het ontwaken van de reus",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "onzichtbaren",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De onzichtbaren",
+                "author": "Peter Nuyten"
+            }
+        ]
+    },
+    {
+        "word": "oompjes",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De oompjes Dalton",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "op",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Een beertje op avontuur",
+                "author": "Derib"
+            },
+            {
+                "title": "Jolly Jumper op vrijersvoeten",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "oude",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Geen land voor oude mannen",
+                "author": "Cormac McCarthy"
+            }
+        ]
+    },
+    {
+        "word": "outlaws",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Aasgieren en outlaws",
+                "author": "Bruno Brindisi"
+            }
+        ]
+    },
+    {
+        "word": "over",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "De brug over de Mississipi",
+                "author": "Morris"
+            },
+            {
+                "title": "Storm over Galveston",
+                "author": "Massimo Rotundo"
+            },
+            {
+                "title": "Vliegende schijven over de prairie",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "paard",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een paard voor Rik",
+                "author": "Lida Dijkstra"
+            }
+        ]
+    },
+    {
+        "word": "painted",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Painted desert",
+                "author": "Angelo Stano"
+            }
+        ]
+    },
+    {
+        "word": "pardon",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Zonder pardon",
+                "author": "Hermann"
+            }
+        ]
+    },
+    {
+        "word": "patagonië",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Patagonië",
+                "author": "Pasquale Frisenda"
+            }
+        ]
+    },
+    {
+        "word": "paula",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Pistolen Paula",
+                "author": "Mirjam Mous"
+            }
+        ]
+    },
+    {
+        "word": "petroleumkoning",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De petroleumkoning",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "pijl",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Volg de pijl",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "pinkerton",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Lucky Luke tegen Pinkerton",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "pinkerton,",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Dossier Allan Pinkerton, 1884",
+                "author": "Damour"
+            }
+        ]
+    },
+    {
+        "word": "pistolen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Pistolen Paula",
+                "author": "Mirjam Mous"
+            }
+        ]
+    },
+    {
+        "word": "pistoleros",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Zeven pistoleros",
+                "author": "Antonio Sarchione"
+            }
+        ]
+    },
+    {
+        "word": "poker",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Stinky Bill speelt poker",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "poort",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Aan de poort van de hel",
+                "author": "Fred de Heij"
+            }
+        ]
+    },
+    {
+        "word": "prairie",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De koningen van de prairie",
+                "author": "Derib"
+            },
+            {
+                "title": "Vliegende schijven over de prairie",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "prairieroos",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wilde prairieroos",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "pratende",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De pratende eik",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "predikant",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het spoor van de predikant",
+                "author": "Yves Swolfs"
+            }
+        ]
+    },
+    {
+        "word": "prooi",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De prooi van wolvinnen",
+                "author": "Boucq"
+            }
+        ]
+    },
+    {
+        "word": "rad",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Voor galg en rad",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "ramp",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De ramp van Goudgroef",
+                "author": "Lida Dijkstra"
+            }
+        ]
+    },
+    {
+        "word": "rataplan",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De erfenis van Rataplan",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "raven",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de raven",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "redemption",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Redemption Falls",
+                "author": "Joseph O'Connor"
+            }
+        ]
+    },
+    {
+        "word": "regenwolf",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Regenwolf",
+                "author": "Pellejero"
+            }
+        ]
+    },
+    {
+        "word": "reisdoel",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Grootvaders reisdoel",
+                "author": "Craig Strete"
+            }
+        ]
+    },
+    {
+        "word": "reus",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De reus van Sutter Camp",
+                "author": "Ralph Meyer"
+            },
+            {
+                "title": "Het ontwaken van de reus",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "reuzenslang",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de reuzenslang",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "rik",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een paard voor Rik",
+                "author": "Lida Dijkstra"
+            }
+        ]
+    },
+    {
+        "word": "ritje",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het eerste ritje",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "rode",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De rode sjaal",
+                "author": "Federica de Cesco"
+            }
+        ]
+    },
+    {
+        "word": "rodeo",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wild west rodeo",
+                "author": "Ken Kesey"
+            }
+        ]
+    },
+    {
+        "word": "rotsgebergte",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De gieren van het Rotsgebergte",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "rotsvesting",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De rotsvesting in Sonora",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "rover",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De schrijver, de rover en de jager",
+                "author": "Leif Enger"
+            }
+        ]
+    },
+    {
+        "word": "schaduw",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De schaduw van de arend",
+                "author": "Benoãit Sokal"
+            }
+        ]
+    },
+    {
+        "word": "schaduwen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Schaduwen in de wind",
+                "author": "Peter Nuyten"
+            }
+        ]
+    },
+    {
+        "word": "schat",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De schat in het Zilvermeer",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "schemering",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wolven in de schemering",
+                "author": "Peter Nuyten"
+            }
+        ]
+    },
+    {
+        "word": "schijven",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Vliegende schijven over de prairie",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "schrijver,",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De schrijver, de rover en de jager",
+                "author": "Leif Enger"
+            }
+        ]
+    },
+    {
+        "word": "schurk",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Mooie schurk",
+                "author": "Christophe Blain"
+            }
+        ]
+    },
+    {
+        "word": "schurkenbloed",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Schurkenbloed",
+                "author": "James Carlos Blake"
+            }
+        ]
+    },
+    {
+        "word": "shatterhand",
+        "amount": 4,
+        "titles": [
+            {
+                "title": "Winnetou ontmoet Old Shatterhand",
+                "author": "Karl May"
+            },
+            {
+                "title": "Shatterhand verslaat Sioux",
+                "author": "Karl May"
+            },
+            {
+                "title": "De verdere avonturen van Winnetou en Old Shatterhand",
+                "author": "Karl May"
+            },
+            {
+                "title": "Old Shatterhand verslaat Sioux",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "sioux",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Shatterhand verslaat Sioux",
+                "author": "Karl May"
+            },
+            {
+                "title": "Old Shatterhand verslaat Sioux",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "sisters",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De gebroeders Sisters",
+                "author": "Patrick DeWitt"
+            }
+        ]
+    },
+    {
+        "word": "sjaal",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De rode sjaal",
+                "author": "Federica de Cesco"
+            }
+        ]
+    },
+    {
+        "word": "slag",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De slag bij Little Bighorn",
+                "author": "Paolo Eleuteri Serpieri"
+            }
+        ]
+    },
+    {
+        "word": "slim",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wie niet dik is, moet slim zijn",
+                "author": "Tibet"
+            }
+        ]
+    },
+    {
+        "word": "slimme",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Slimme Witte Veer en de stormvogel",
+                "author": "Niels Rood"
+            }
+        ]
+    },
+    {
+        "word": "smith",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Zijne Keizerlijke Hoogheid Smith",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "sneeuw",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Sterven als een hond in de sneeuw",
+                "author": "Yves Swolfs"
+            }
+        ]
+    },
+    {
+        "word": "snelste",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De snelste trein van het Wilde Westen",
+                "author": "Ennio Bufi"
+            }
+        ]
+    },
+    {
+        "word": "sonora",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De rotsvesting in Sonora",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "speelt",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Stinky Bill speelt poker",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "spookstad",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De spookstad",
+                "author": "Lida Dijkstra"
+            }
+        ]
+    },
+    {
+        "word": "spoor",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het spoor van de predikant",
+                "author": "Yves Swolfs"
+            }
+        ]
+    },
+    {
+        "word": "sprekende",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Eenzame Wolf en de sprekende boom",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "stad",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De stad van de wilden",
+                "author": "Julien Maffre"
+            }
+        ]
+    },
+    {
+        "word": "stark",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een steekje los bij Stark",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "starr",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Belle Starr",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "steekje",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een steekje los bij Stark",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "steen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De vrucht van steen",
+                "author": "Mark Spragg"
+            }
+        ]
+    },
+    {
+        "word": "sterven",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Sterven als een hond in de sneeuw",
+                "author": "Yves Swolfs"
+            }
+        ]
+    },
+    {
+        "word": "stilte",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een dag van stilte",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "stinky",
+        "amount": 4,
+        "titles": [
+            {
+                "title": "Stinky Bill speelt poker",
+                "author": "Martine Letterie"
+            },
+            {
+                "title": "Cowboy Stinky Bill",
+                "author": "Martine Letterie"
+            },
+            {
+                "title": "Stinky Bill heeft goudkoorts",
+                "author": "Martine Letterie"
+            },
+            {
+                "title": "Stinky Bill kent geen genade",
+                "author": "Martine Letterie"
+            }
+        ]
+    },
+    {
+        "word": "storm",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De kille woede van de storm",
+                "author": "Benoît Sokal"
+            },
+            {
+                "title": "Storm over Galveston",
+                "author": "Massimo Rotundo"
+            }
+        ]
+    },
+    {
+        "word": "stormvogel",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Slimme Witte Veer en de stormvogel",
+                "author": "Niels Rood"
+            }
+        ]
+    },
+    {
+        "word": "story",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Colorado story",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "strijd",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De strijd in de Zwarte Bergen",
+                "author": "Hans G. Kresse"
+            }
+        ]
+    },
+    {
+        "word": "strop",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een strop voor de Daltons",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "surehand",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Old Surehand",
+                "author": "Karl May"
+            },
+            {
+                "title": "Old Surehand",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "sutter",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De reus van Sutter Camp",
+                "author": "Ralph Meyer"
+            }
+        ]
+    },
+    {
+        "word": "sykes",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Sykes",
+                "author": "Armand"
+            }
+        ]
+    },
+    {
+        "word": "tand",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Tand om tand",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "tate",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Tate",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "tegen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Lucky Luke tegen Pinkerton",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "teken",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het teken van de lobo",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "terugkeer",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De terugkeer van het toverkonijn",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "testament",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou's testament",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "tex",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Tex Willer",
+                "author": "Colin Wilson"
+            }
+        ]
+    },
+    {
+        "word": "texas",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Texas cowboys",
+                "author": "Bonhomme"
+            },
+            {
+                "title": "Texas cowboys",
+                "author": "Bonhomme"
+            },
+            {
+                "title": "Verraad in Texas",
+                "author": "Gerben Graddesz Hellinga"
+            }
+        ]
+    },
+    {
+        "word": "to",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "A million ways to die in the west",
+                "author": "Seth MacFarlane"
+            }
+        ]
+    },
+    {
+        "word": "toch?",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Maar waar is Linus toch?",
+                "author": "Griffon"
+            }
+        ]
+    },
+    {
+        "word": "tot",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Tot in de dood",
+                "author": "Fred de Heij"
+            }
+        ]
+    },
+    {
+        "word": "toverkonijn",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De terugkeer van het toverkonijn",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "town",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Daisy Town",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "trein",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De snelste trein van het Wilde Westen",
+                "author": "Ennio Bufi"
+            }
+        ]
+    },
+    {
+        "word": "treinroof!",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Treinroof!",
+                "author": "José Ortiz"
+            }
+        ]
+    },
+    {
+        "word": "trent",
+        "amount": 4,
+        "titles": [
+            {
+                "title": "Trent",
+                "author": "Leo"
+            },
+            {
+                "title": "Trent",
+                "author": "Leo"
+            },
+            {
+                "title": "Trent",
+                "author": "Leo"
+            },
+            {
+                "title": "Kleine Trent",
+                "author": "Leo"
+            }
+        ]
+    },
+    {
+        "word": "true",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "True grit",
+                "author": "Charles Portis"
+            }
+        ]
+    },
+    {
+        "word": "twee",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De man die twee keer is gestorven",
+                "author": "Gilles Mezzomo"
+            }
+        ]
+    },
+    {
+        "word": "unchained",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Django unchained",
+                "author": "R.M. Guéra"
+            }
+        ]
+    },
+    {
+        "word": "val",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "In de val van de mensenjager",
+                "author": "W. Vandersteen"
+            }
+        ]
+    },
+    {
+        "word": "vallei",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De verlaten vallei",
+                "author": "Benoît Sokal"
+            }
+        ]
+    },
+    {
+        "word": "valstrik",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de valstrik",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "veer",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Slimme Witte Veer en de stormvogel",
+                "author": "Niels Rood"
+            }
+        ]
+    },
+    {
+        "word": "verdere",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De verdere avonturen van Winnetou en Old Shatterhand",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "verhalen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De ballade van de Daltons en andere verhalen",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "verlaten",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "De verlaten vallei",
+                "author": "Benoît Sokal"
+            },
+            {
+                "title": "De verlaten mijn",
+                "author": "Jijé"
+            }
+        ]
+    },
+    {
+        "word": "verliezen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De Daltons verliezen hun geheugen",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "verloofde",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De verloofde van Lucky Luke",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "verraad",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Verraad in Texas",
+                "author": "Gerben Graddesz Hellinga"
+            }
+        ]
+    },
+    {
+        "word": "verslaat",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Shatterhand verslaat Sioux",
+                "author": "Karl May"
+            },
+            {
+                "title": "Old Shatterhand verslaat Sioux",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "vervloekt",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Vervloekt goud",
+                "author": "Paolo Eleuteri Serpieri"
+            }
+        ]
+    },
+    {
+        "word": "verzegeld",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Verzegeld hart",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "vier",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "De vier evangelisten",
+                "author": "Willy Lambil"
+            },
+            {
+                "title": "Vier knagers in het Wilde Westen",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "Vier muizen in het Wilde Westen",
+                "author": "Geronimo Stilton"
+            }
+        ]
+    },
+    {
+        "word": "vingers",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Groene vingers",
+                "author": "Willy Lambil"
+            }
+        ]
+    },
+    {
+        "word": "vliegende",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Vliegende schijven over de prairie",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "vogel",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de vreemde vogel",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "vogelvrij",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Vogelvrij",
+                "author": "L.Ron Hubbard"
+            }
+        ]
+    },
+    {
+        "word": "volg",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Volg de pijl",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "volle",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Een nieuwe naam voor Volle Maan",
+                "author": "Arend van Dam"
+            }
+        ]
+    },
+    {
+        "word": "voor",
+        "amount": 7,
+        "titles": [
+            {
+                "title": "Ieder voor zich",
+                "author": "Achdé"
+            },
+            {
+                "title": "Een paard voor Rik",
+                "author": "Lida Dijkstra"
+            },
+            {
+                "title": "Geen land voor oude mannen",
+                "author": "Cormac McCarthy"
+            },
+            {
+                "title": "Een strop voor de Daltons",
+                "author": "Achdé"
+            },
+            {
+                "title": "Vrij voor altijd",
+                "author": "Linda Lael Miller"
+            },
+            {
+                "title": "Een nieuwe naam voor Volle Maan",
+                "author": "Arend van Dam"
+            },
+            {
+                "title": "Voor galg en rad",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "voorjaar",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "voorjaar 1859",
+                "author": "Hans G. Kresse"
+            }
+        ]
+    },
+    {
+        "word": "vreemde",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de vreemde vogel",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "vrij",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Vrij voor altijd",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "vrijersvoeten",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Jolly Jumper op vrijersvoeten",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "vrucht",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De vrucht van steen",
+                "author": "Mark Spragg"
+            }
+        ]
+    },
+    {
+        "word": "vuurdam",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Yakari en de vuurdam",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "waar",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Waar blijven de bizons?",
+                "author": "Marion van de Coolwijk"
+            },
+            {
+                "title": "Maar waar is Linus toch?",
+                "author": "Griffon"
+            }
+        ]
+    },
+    {
+        "word": "warme",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Warme avondzon",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "washington",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De man van Washington",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "washita",
+        "amount": 5,
+        "titles": [
+            {
+                "title": "Washita",
+                "author": "Labourot"
+            },
+            {
+                "title": "Washita",
+                "author": "Labourot"
+            },
+            {
+                "title": "Washita",
+                "author": "Labourot"
+            },
+            {
+                "title": "Washita",
+                "author": "Labourot"
+            },
+            {
+                "title": "Washita",
+                "author": "Labourot"
+            }
+        ]
+    },
+    {
+        "word": "ways",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "A million ways to die in the west",
+                "author": "Seth MacFarlane"
+            }
+        ]
+    },
+    {
+        "word": "weduwe",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De zwarte weduwe",
+                "author": "Boucq"
+            }
+        ]
+    },
+    {
+        "word": "west",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "A million ways to die in the west",
+                "author": "Seth MacFarlane"
+            },
+            {
+                "title": "Wild west rodeo",
+                "author": "Ken Kesey"
+            }
+        ]
+    },
+    {
+        "word": "westen",
+        "amount": 7,
+        "titles": [
+            {
+                "title": "De snelste trein van het Wilde Westen",
+                "author": "Ennio Bufi"
+            },
+            {
+                "title": "Het woeste Wilde Westen",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "Vier knagers in het Wilde Westen",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "Vier muizen in het Wilde Westen",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "Het wilde westen",
+                "author": "Jeff Broeckx"
+            },
+            {
+                "title": "Avonturen in het Wilde Westen",
+                "author": "Karl May"
+            },
+            {
+                "title": "Meridiaan van bloed, of Het avondrood in het westen",
+                "author": "Cormac McCarthy"
+            }
+        ]
+    },
+    {
+        "word": "wet",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou's wil wordt wet",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "white",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Black & white",
+                "author": "Igor Kordey"
+            }
+        ]
+    },
+    {
+        "word": "wie",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wie niet dik is, moet slim zijn",
+                "author": "Tibet"
+            }
+        ]
+    },
+    {
+        "word": "wil",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou's wil wordt wet",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "wild",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wild west rodeo",
+                "author": "Ken Kesey"
+            }
+        ]
+    },
+    {
+        "word": "wilddoder",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De wilddoder",
+                "author": "James Fenimore Cooper"
+            }
+        ]
+    },
+    {
+        "word": "wilde",
+        "amount": 8,
+        "titles": [
+            {
+                "title": "De snelste trein van het Wilde Westen",
+                "author": "Ennio Bufi"
+            },
+            {
+                "title": "Het woeste Wilde Westen",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "Vier knagers in het Wilde Westen",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "De wilde jongen en de beer",
+                "author": "Käthe Recheis"
+            },
+            {
+                "title": "Vier muizen in het Wilde Westen",
+                "author": "Geronimo Stilton"
+            },
+            {
+                "title": "Het wilde westen",
+                "author": "Jeff Broeckx"
+            },
+            {
+                "title": "Avonturen in het Wilde Westen",
+                "author": "Karl May"
+            },
+            {
+                "title": "Wilde prairieroos",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "wilden",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De stad van de wilden",
+                "author": "Julien Maffre"
+            }
+        ]
+    },
+    {
+        "word": "willer",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Tex Willer",
+                "author": "Colin Wilson"
+            }
+        ]
+    },
+    {
+        "word": "willy",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Willy Boem",
+                "author": "David Vlietstra"
+            },
+            {
+                "title": "Willy Boem en de Duistere Cowboy",
+                "author": "David Vlietstra"
+            }
+        ]
+    },
+    {
+        "word": "wind",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Schaduwen in de wind",
+                "author": "Peter Nuyten"
+            }
+        ]
+    },
+    {
+        "word": "winnetou",
+        "amount": 8,
+        "titles": [
+            {
+                "title": "Winnetou ontmoet Old Shatterhand",
+                "author": "Karl May"
+            },
+            {
+                "title": "Winnetou",
+                "author": "Karl May"
+            },
+            {
+                "title": "De dood van Winnetou",
+                "author": "Karl May"
+            },
+            {
+                "title": "Karl May's Winnetou",
+                "author": "Karl May"
+            },
+            {
+                "title": "Karl May's Winnetou",
+                "author": "Karl May"
+            },
+            {
+                "title": "De verdere avonturen van Winnetou en Old Shatterhand",
+                "author": "Karl May"
+            },
+            {
+                "title": "Winnetou bij de Bedoeïenen",
+                "author": "Karl May"
+            },
+            {
+                "title": "Winnetou",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "winnetou's",
+        "amount": 3,
+        "titles": [
+            {
+                "title": "Winnetou's dood",
+                "author": "Karl May"
+            },
+            {
+                "title": "Winnetou's testament",
+                "author": "Karl May"
+            },
+            {
+                "title": "Winnetou's wil wordt wet",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "winnetou,",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou, het grote Apachenopperhoofd",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "witte",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Slimme Witte Veer en de stormvogel",
+                "author": "Niels Rood"
+            },
+            {
+                "title": "Yakari en de witte bizon",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "woede",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De kille woede van de storm",
+                "author": "Benoît Sokal"
+            }
+        ]
+    },
+    {
+        "word": "woeste",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Het woeste Wilde Westen",
+                "author": "Geronimo Stilton"
+            }
+        ]
+    },
+    {
+        "word": "wolf",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Eenzame Wolf en de sprekende boom",
+                "author": "S.M. van der Galiën"
+            },
+            {
+                "title": "Eenzame Wolf",
+                "author": "S.M. van der Galiën"
+            }
+        ]
+    },
+    {
+        "word": "wolven",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Yakari bij de wolven",
+                "author": "Derib"
+            },
+            {
+                "title": "Wolven in de schemering",
+                "author": "Peter Nuyten"
+            }
+        ]
+    },
+    {
+        "word": "wolvinnen",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De prooi van wolvinnen",
+                "author": "Boucq"
+            }
+        ]
+    },
+    {
+        "word": "wordt",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Winnetou's wil wordt wet",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "wuivend",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wuivend gras",
+                "author": "Linda Lael Miller"
+            }
+        ]
+    },
+    {
+        "word": "yakari",
+        "amount": 10,
+        "titles": [
+            {
+                "title": "Yakari en de Appaloosa's",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari bij de wolven",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari en de berggeiten",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari en de moederbeer",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari en de raven",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari en de reuzenslang",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari en de vreemde vogel",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari en de valstrik",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari en de vuurdam",
+                "author": "Derib"
+            },
+            {
+                "title": "Yakari en de witte bizon",
+                "author": "Derib"
+            }
+        ]
+    },
+    {
+        "word": "zadelmaker",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De zadelmaker",
+                "author": "N.J. Frank"
+            }
+        ]
+    },
+    {
+        "word": "zeven",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Zeven pistoleros",
+                "author": "Antonio Sarchione"
+            }
+        ]
+    },
+    {
+        "word": "zich",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Ieder voor zich",
+                "author": "Achdé"
+            }
+        ]
+    },
+    {
+        "word": "zijn",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Wie niet dik is, moet slim zijn",
+                "author": "Tibet"
+            }
+        ]
+    },
+    {
+        "word": "zijne",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "Zijne Keizerlijke Hoogheid Smith",
+                "author": "Morris"
+            }
+        ]
+    },
+    {
+        "word": "zilvermeer",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De schat in het Zilvermeer",
+                "author": "Karl May"
+            }
+        ]
+    },
+    {
+        "word": "zonder",
+        "amount": 2,
+        "titles": [
+            {
+                "title": "Zonder pardon",
+                "author": "Hermann"
+            },
+            {
+                "title": "Zonder genade",
+                "author": "Yves Swolfs"
+            }
+        ]
+    },
+    {
+        "word": "zwarte",
+        "amount": 4,
+        "titles": [
+            {
+                "title": "De zwarte mustang",
+                "author": "Karl May"
+            },
+            {
+                "title": "De zwarte heuvels",
+                "author": "Morris"
+            },
+            {
+                "title": "De zwarte weduwe",
+                "author": "Boucq"
+            },
+            {
+                "title": "De strijd in de Zwarte Bergen",
+                "author": "Hans G. Kresse"
+            }
+        ]
+    },
+    {
+        "word": "zwerver",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De doodbidder, de zwerver en de moordenaar",
+                "author": "Julien Maffre"
+            }
+        ]
+    },
+    {
+        "word": "zwijgende",
+        "amount": 1,
+        "titles": [
+            {
+                "title": "De zwijgende getuige",
+                "author": "Jeff Broeckx"
+            }
+        ]
+    }
+]
