@@ -110,7 +110,10 @@ search(1)
         data.forEach((wordInfo, index) => {
           books.forEach(book => {
             if (helper.containsWord(book.title, wordInfo.word)) {
-              data[index].titles.push(book.title)
+              data[index].titles.push({
+                title: book.title,
+                author: book.author
+              })
               data[index].amount++
             }
           })
@@ -120,7 +123,7 @@ search(1)
         helper.exportArr('words', words)
         helper.exportArr('data', data)
       })
-      .catch(err => console.log(err))
+      .catch(err => console.error(err))
   })
   .catch(err => console.error(err))
 
