@@ -9,13 +9,13 @@ const client = new OBA({
   secret: process.env.SECRET_KEY
 })
 
-function search (page) {
+function search (page, genre) {
   return new Promise((resolve, reject) => {
     client.get('search', {
       q: 'format:book',
       refine: true,
       librarian: true,
-      facet: ['genre(western)', 'language(dut)'],
+      facet: [`genre(${genre})`, 'language(dut)'],
       page: page
     })
       .then(res => {
@@ -27,18 +27,18 @@ function search (page) {
   })
 }
 
-function getAndParseData (pages, books, words) {
+function getAndParseData (pages, genre, books, words) {
   return new Promise((resolve, reject) => {
     for (let i = 1; i < pages + 1; i++) {
       setTimeout(() => {
-        search(i)
+        search(i, genre)
           .then(results => {
             // Create array with books titles and their author
             let res = results.results.result
             res.forEach(book => {
               books.push({
-                title: book['librarian-info'].record.marc.df200.df200[0].$t,
-                author: book.authors['main-author']['search-term']
+                title: book['librarian-info'].record.marc.df200.df200 ? book['librarian-info'].record.marc.df200.df200[0].$t : undefined,
+                author: book.authors ? book.authors['main-author']['search-term'] : undefined
               })
             })
             return books
@@ -46,13 +46,15 @@ function getAndParseData (pages, books, words) {
           .then(books => {
             // Create array with all words from the book titles
             books.forEach(book => {
-              let title = book.title.split(' ')
-              title.forEach(word => {
-                word = word.toLowerCase()
-                if (word !== 'de' && word !== 'het' && word !== 'een' && word !== 'the' && word !== 'van' && word !== 'bij' && word !== 'a' && word !== 'en' && word !== 'in' && word !== '&' && isNaN(word)) {
-                  words.push(word.toLowerCase())
-                }
-              })
+              let title = book.title ? book.title.split(' ') : undefined
+              if (title) {
+                title.forEach(word => {
+                  word = word.toLowerCase()
+                  if (word !== 'de' && word !== 'het' && word !== 'een' && word !== 'the' && word !== 'van' && word !== 'bij' && word !== 'a' && word !== 'en' && word !== 'in' && word !== '&' && isNaN(word)) {
+                    words.push(word.toLowerCase())
+                  }
+                })
+              }
             })
           })
           .then(() => {
@@ -75,57 +77,58 @@ function getAndParseData (pages, books, words) {
 //     aantal:
 //   }
 // ]
+function init (genre) {
+  search(1, genre)
+    .then(results => {
+      let pages = Math.ceil(results.meta.count / 20)
+      let words = []
+      let books = []
+      let data = []
+      let count = 0
 
-search(1)
-  .then(results => {
-    let pages = Math.ceil(results.meta.count / 20)
-    let words = []
-    let books = []
-    let data = []
-    let count = 0
-
-    getAndParseData(pages, books, words)
-      .then(words => {
-        // Create array with all words an their count
-        words.sort()
-        words.forEach(word => {
-          if (count === 0) {
-            data.push({
-              word: word,
-              amount: 0,
-              titles: []
-            })
-            count++
-          } else if (data[count] === undefined || data[count].word !== word) {
-            count++
-            data[count] = {
-              word: word,
-              amount: 0,
-              titles: []
-            }
-          }
-        })
-      })
-      .then(() => {
-        data.forEach((wordInfo, index) => {
-          books.forEach(book => {
-            if (helper.containsWord(book.title, wordInfo.word)) {
-              data[index].titles.push({
-                title: book.title,
-                author: book.author
+      getAndParseData(pages, genre, books, words)
+        .then(words => {
+          // Create array with all words an their count
+          words.sort()
+          words.forEach(word => {
+            if (count === 0) {
+              data.push({
+                word: word,
+                amount: 0,
+                titles: []
               })
-              data[index].amount++
+              count++
+            } else if (data[count] === undefined || data[count].word !== word) {
+              count++
+              data[count] = {
+                word: word,
+                amount: 0,
+                titles: []
+              }
             }
           })
         })
-      })
-      .then(() => {
-        helper.exportArr('words', words)
-        helper.exportArr('data', data)
-      })
-      .catch(err => console.error(err))
-  })
-  .catch(err => console.error(err))
+        .then(() => {
+          data.forEach((wordInfo, index) => {
+            books.forEach(book => {
+              if (helper.containsWord(book.title, wordInfo.word)) {
+                data[index].titles.push({
+                  title: book.title,
+                  author: book.author
+                })
+                data[index].amount++
+              }
+            })
+          })
+        })
+        .then(() => {
+          helper.exportArr('words', words)
+          helper.exportArr(genre, data)
+        })
+        .catch(err => console.error(err))
+    })
+    .catch(err => console.error(err))
+}
 
 // Per woord alle auteurs
 // per auteur alle titels

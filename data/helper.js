@@ -21,13 +21,16 @@ function exportArr (name, arr) {
 }
 
 function containsWord (str, word) {
-  let splitStr = str.split(' ')
   let contains = false
-  splitStr.forEach(titleWord => {
-    if (titleWord.toLowerCase() === word) {
-      contains = true
-    }
-  })
+
+  if (str) {
+    let splitStr = str.split(' ')
+    splitStr.forEach(titleWord => {
+      if (titleWord.toLowerCase() === word) {
+        contains = true
+      }
+    })
+  }
   return contains
 }
 
