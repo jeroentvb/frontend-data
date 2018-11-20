@@ -50,7 +50,28 @@ function getAndParseData (pages, genre, books, words) {
               if (title) {
                 title.forEach(word => {
                   word = word.toLowerCase()
-                  if (word !== 'de' && word !== 'het' && word !== 'een' && word !== 'the' && word !== 'van' && word !== 'bij' && word !== 'a' && word !== 'en' && word !== 'in' && word !== '&' && isNaN(word)) {
+                  if (
+                    word !== 'de' &&
+                    word !== 'het' &&
+                    word !== 'een' &&
+                    word !== 'the' &&
+                    word !== 'van' &&
+                    word !== 'bij' &&
+                    word !== 'a' &&
+                    word !== 'en' &&
+                    word !== 'in' &&
+                    word !== '&' &&
+                    word !== 'voor' &&
+                    word !== 'ik' &&
+                    word !== 'is' &&
+                    word !== 'je' &&
+                    word !== 'op' &&
+                    word !== 'met' &&
+                    word !== 'te' &&
+                    word !== 'mijn' &&
+                    word !== 'niet' &&
+                    isNaN(word)
+                  ) {
                     words.push(word.toLowerCase())
                   }
                 })
@@ -77,7 +98,21 @@ function getAndParseData (pages, genre, books, words) {
 //     aantal:
 //   }
 // ]
-function init (genre) {
+const genres = [
+  'western',
+  'humor',
+  'sport'
+]
+
+function init (genres) {
+  genres.forEach((genre, index) => {
+    setTimeout(() => {
+      getAllData(genre)
+    }, index * (genres.length * 100000))
+  })
+}
+
+function getAllData (genre) {
   search(1, genre)
     .then(results => {
       let pages = Math.ceil(results.meta.count / 20)
@@ -130,20 +165,4 @@ function init (genre) {
     .catch(err => console.error(err))
 }
 
-// Per woord alle auteurs
-// per auteur alle titels
-//
-// [
-//   {
-//     word: '',
-//     authors: [
-//       {
-//         authorname: '',
-//         titles: [
-//           '',
-//           ''
-//         ]
-//       }
-//     ]
-//   }
-// ]
+init(genres)
