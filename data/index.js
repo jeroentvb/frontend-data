@@ -42,7 +42,7 @@ function getAndParseData (pages, genre, books, words) {
             let res = results.results.result
             res.forEach(book => {
               books.push({
-                title: book['librarian-info'].record.marc.df200.df200 ? book['librarian-info'].record.marc.df200.df200[0].$t : undefined,
+                name: book['librarian-info'].record.marc.df200.df200 ? book['librarian-info'].record.marc.df200.df200[0].$t : undefined,
                 author: book.authors ? book.authors['main-author']['search-term'] : undefined
               })
             })
@@ -51,7 +51,7 @@ function getAndParseData (pages, genre, books, words) {
           .then(books => {
             // Create array with all words from the book titles
             books.forEach(book => {
-              let title = book.title ? book.title.split(' ') : undefined
+              let title = book.name ? book.name.split(' ') : undefined
               if (title) {
                 title.forEach(word => {
                   word = word.toLowerCase()
@@ -120,17 +120,17 @@ function getAllData (genre) {
           words.forEach(word => {
             if (count === 0) {
               data.push({
-                word: word,
+                name: word,
                 amount: 0,
-                titles: []
+                books: []
               })
               count++
-            } else if (data[count] === undefined || data[count].word !== word) {
+            } else if (data[count] === undefined || data[count].name !== word) {
               count++
               data[count] = {
-                word: word,
+                name: word,
                 amount: 0,
-                titles: []
+                books: []
               }
             }
           })
@@ -138,9 +138,9 @@ function getAllData (genre) {
         .then(() => {
           data.forEach((wordInfo, index) => {
             books.forEach(book => {
-              if (helper.containsWord(book.title, wordInfo.word)) {
-                data[index].titles.push({
-                  title: book.title,
+              if (helper.containsWord(book.name, wordInfo.name)) {
+                data[index].books.push({
+                  name: book.name,
                   author: book.author
                 })
                 data[index].amount++
