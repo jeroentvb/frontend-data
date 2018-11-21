@@ -1,76 +1,77 @@
+/* global d3, fetch */
 'use strict'
 
-const dataset = {
-  'name': 'flare',
-  'children': [
-    {
-      'name': 'analytics',
-      'children': [
-        {
-          'name': 'cluster',
-          'children': [
-            {
-              'name': 'AgglomerativeCluster',
-              'size': 3938
-            },
-            {
-              'name': 'CommunityStructure',
-              'size': 3812
-            },
-            {
-              'name': 'HierarchicalCluster',
-              'size': 6714
-            },
-            {
-              'name': 'MergeEdge',
-              'size': 743
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-
-const dataset2 = {
-  'name': 'genres',
-  'children': [
-    {
-      'name': 'Western',
-      'children': [
-        {
-          'name': 'avonturen',
-          'amount': 2,
-          'books': [
-            {
-              'name': 'Avonturen in het Wilde Westen',
-              'author': 'Karl May'
-            },
-            {
-              'name': 'De verdere avonturen van Winnetou en Old Shatterhand',
-              'author': 'Karl May'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      'name': 'Humor',
-      'children': [
-        {
-          'name': 'test',
-          'amount': 1,
-          'children': [
-            {
-              'name': 'Dit is een test',
-              'author': 'Joopie'
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+// const dataset = {
+//   'name': 'flare',
+//   'children': [
+//     {
+//       'name': 'analytics',
+//       'children': [
+//         {
+//           'name': 'cluster',
+//           'children': [
+//             {
+//               'name': 'AgglomerativeCluster',
+//               'size': 3938
+//             },
+//             {
+//               'name': 'CommunityStructure',
+//               'size': 3812
+//             },
+//             {
+//               'name': 'HierarchicalCluster',
+//               'size': 6714
+//             },
+//             {
+//               'name': 'MergeEdge',
+//               'size': 743
+//             }
+//           ]
+//         }
+//       ]
+//     }
+//   ]
+// }
+//
+// const dataset2 = {
+//   'name': 'genres',
+//   'children': [
+//     {
+//       'name': 'Western',
+//       'children': [
+//         {
+//           'name': 'avonturen',
+//           'amount': 2,
+//           'books': [
+//             {
+//               'name': 'Avonturen in het Wilde Westen',
+//               'author': 'Karl May'
+//             },
+//             {
+//               'name': 'De verdere avonturen van Winnetou en Old Shatterhand',
+//               'author': 'Karl May'
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       'name': 'Humor',
+//       'children': [
+//         {
+//           'name': 'test',
+//           'amount': 1,
+//           'children': [
+//             {
+//               'name': 'Dit is een test',
+//               'author': 'Joopie'
+//             }
+//           ]
+//         }
+//       ]
+//     }
+//   ]
+// }
 
 function init () {
   fetch('https://raw.githubusercontent.com/jeroentvb/frontend-data/master/datavis/data.json')
@@ -92,7 +93,7 @@ function formatData (dataset) {
       // .reverse() reverses the order. Instead of down > up it goes up > down
       // .map(a => a.data.name) Gets the names of all objects in the tree
       // .join() concats the names to a single string
-        // d.data.name = d.ancestors().reverse().map(a => a.data.name).join(' > ')
+      // d.data.name = d.ancestors().reverse().map(a => a.data.name).join(' > ') < f*cks the naming up
       // d.data.name = d.data.name
       // Make the group (genre) name the name of the p object
       d.data.genre = p.parent.data.name
@@ -127,8 +128,7 @@ function render (dataset) {
 
   const pack = data => d3.pack()
     .size([width - 250, height - 2])
-    .padding(3)
-    (d3.hierarchy({ children: data })
+    .padding(3)(d3.hierarchy({ children: data })
       .sum(d => d.value))
 
   // Format the value to a readable number
