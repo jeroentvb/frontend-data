@@ -74,7 +74,7 @@
 // }
 
 function init () {
-  fetch('https://raw.githubusercontent.com/jeroentvb/frontend-data/master/datavis/data.json')
+  fetch('https://raw.githubusercontent.com/jeroentvb/frontend-data/master/data.json')
     .then(res => res.json())
     // .then(dataset => datavis(dataset))
     .then(dataset => render(dataset))
