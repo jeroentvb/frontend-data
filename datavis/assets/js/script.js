@@ -119,6 +119,13 @@ function createSvg (width, height) {
     .attr('text-anchor', 'middle')
 }
 
+function createTooltip () {
+  return d3.select('body')
+    .append('div')
+    .attr('class', 'tooltip')
+    .style('opacity', 0)
+}
+
 function render (dataset) {
   const width = 932
   const height = width
@@ -142,6 +149,8 @@ function render (dataset) {
 
   const svg = createSvg(width, height)
 
+  const tooltip = createTooltip()
+
   const leaf = svg.selectAll('g')
     .data(root.leaves())
     .enter().append('g')
@@ -152,6 +161,20 @@ function render (dataset) {
     .attr('r', d => d.value)
     .attr('fill-opacity', 0.7)
     .attr('fill', d => color(d.data.genre))
+    .on('mouseover', d => {
+      console.log(d.data.books)
+      tooltip.transition()
+        .duration(200)
+        .style('opacity', 0.9)
+      tooltip.html(`Komt ${d.value} keer voor in het genre ${d.data.genre.toLowerCase()}`)
+        .style('left', `${d.x}px`)
+        .style('top', `${d.y - (d.value + 40)}px`)
+    })
+    .on('mouseout', d => {
+      tooltip.transition()
+        .duration(200)
+        .style('opacity', 0)
+    })
 
   // Doesn't work due to DOM. not existing in the browser, does exist in observablehq
   // leaf.append('clipPath')
@@ -161,11 +184,15 @@ function render (dataset) {
 
   leaf.append('text')
     .attr('font-size', d => d.value)
+    .style('pointer-events', 'none')
     // Doesn't really do much because the code above doesn't work
     // .attr('clip-path', d => d.clipUid)
     .selectAll('tspan')
     // If this isn't splitted, the text will run from up > down instead of left > right
-    .data(d => d.data.name.split(/(?=[A-Z][^A-Z])/g))
+    .data(d => {
+      // console.log(d.data)
+      return d.data.name.split(/(?=[A-Z][^A-Z])/g)
+    })
     .enter().append('tspan')
     .attr('x', 0)
     // Some math to position the text inside the bubble

@@ -11,7 +11,9 @@ const client = new OBA({
 })
 
 const genres = [
-  'western'
+  'western',
+  'sport',
+  'humor'
 ]
 
 function search (page, genre) {
@@ -100,7 +102,7 @@ function init (genres) {
   genres.forEach((genre, index) => {
     setTimeout(() => {
       getAllData(genre)
-    }, index * (genres.length * 100000))
+    }, index * (genres.length * 20000))
   })
 }
 
