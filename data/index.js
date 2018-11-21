@@ -2,12 +2,17 @@
 
 const OBA = require('oba-api')
 const helper = require('./helper')
+const Helper = require('jeroentvb-helper')
 require('dotenv').config()
 
 const client = new OBA({
   public: process.env.PUBLIC_KEY,
   secret: process.env.SECRET_KEY
 })
+
+const genres = [
+  'western'
+]
 
 function search (page, genre) {
   return new Promise((resolve, reject) => {
@@ -81,7 +86,7 @@ function getAndParseData (pages, genre, books, words) {
           .then(() => {
             // If the loop end, resolve the promise and export the books array
             if (i === pages) {
-              helper.exportArr('books', books)
+              Helper.exportToFile('books', books)
               resolve(words)
             }
           })
@@ -90,19 +95,6 @@ function getAndParseData (pages, genre, books, words) {
     }
   })
 }
-
-// [
-//   {
-//     titels: [],
-//     woord: ,
-//     aantal:
-//   }
-// ]
-const genres = [
-  'western',
-  'humor',
-  'sport'
-]
 
 function init (genres) {
   genres.forEach((genre, index) => {
@@ -157,8 +149,8 @@ function getAllData (genre) {
           })
         })
         .then(() => {
-          helper.exportArr('words', words)
-          helper.exportArr(genre, data)
+          Helper.exportToFile('words', words)
+          Helper.exportToFile(genre, data)
         })
         .catch(err => console.error(err))
     })
