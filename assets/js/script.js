@@ -149,7 +149,29 @@ function render (dataset) {
 
   const svg = createSvg(width, height)
 
+  function zoomed () {
+    svg.attr('transform', d3.event.transform)
+  }
+  const zoom = d3.zoom().on('zoom', zoomed)
+
+  svg.call(zoom)
+
   const tooltip = createTooltip()
+
+  const mouseover = d => {
+    tooltip.transition()
+      .duration(200)
+      .style('opacity', 0.9)
+    tooltip.html(`Komt ${d.value} keer voor in het genre ${d.data.genre.toLowerCase()}`)
+      .style('left', `${d.x}px`)
+      .style('top', `${d.y - (d.value + 40)}px`)
+  }
+
+  const mouseout = d => {
+    tooltip.transition()
+      .duration(200)
+      .style('opacity', 0)
+  }
 
   const leaf = svg.selectAll('g')
     .data(root.leaves())
@@ -161,20 +183,8 @@ function render (dataset) {
     .attr('r', d => d.value)
     .attr('fill-opacity', 0.7)
     .attr('fill', d => color(d.data.genre))
-    .on('mouseover', d => {
-      console.log(d.data.books)
-      tooltip.transition()
-        .duration(200)
-        .style('opacity', 0.9)
-      tooltip.html(`Komt ${d.value} keer voor in het genre ${d.data.genre.toLowerCase()}`)
-        .style('left', `${d.x}px`)
-        .style('top', `${d.y - (d.value + 40)}px`)
-    })
-    .on('mouseout', d => {
-      tooltip.transition()
-        .duration(200)
-        .style('opacity', 0)
-    })
+    .on('mouseover', mouseover)
+    .on('mouseout', mouseout)
 
   // Doesn't work due to DOM. not existing in the browser, does exist in observablehq
   // leaf.append('clipPath')
