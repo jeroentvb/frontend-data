@@ -1,11 +1,23 @@
 body {
   font-family: system-ui, sans-serif;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin-right: 1em;
 }
 
 select {
   min-width: 12em;
   font-size: 1em;
   padding: .2em;
+  border-radius: 8px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
 }
 
 .tooltip {
