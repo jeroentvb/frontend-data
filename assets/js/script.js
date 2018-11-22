@@ -1,78 +1,6 @@
 /* global d3, fetch */
 'use strict'
 
-// const dataset = {
-//   'name': 'flare',
-//   'children': [
-//     {
-//       'name': 'analytics',
-//       'children': [
-//         {
-//           'name': 'cluster',
-//           'children': [
-//             {
-//               'name': 'AgglomerativeCluster',
-//               'size': 3938
-//             },
-//             {
-//               'name': 'CommunityStructure',
-//               'size': 3812
-//             },
-//             {
-//               'name': 'HierarchicalCluster',
-//               'size': 6714
-//             },
-//             {
-//               'name': 'MergeEdge',
-//               'size': 743
-//             }
-//           ]
-//         }
-//       ]
-//     }
-//   ]
-// }
-//
-// const dataset2 = {
-//   'name': 'genres',
-//   'children': [
-//     {
-//       'name': 'Western',
-//       'children': [
-//         {
-//           'name': 'avonturen',
-//           'amount': 2,
-//           'books': [
-//             {
-//               'name': 'Avonturen in het Wilde Westen',
-//               'author': 'Karl May'
-//             },
-//             {
-//               'name': 'De verdere avonturen van Winnetou en Old Shatterhand',
-//               'author': 'Karl May'
-//             }
-//           ]
-//         }
-//       ]
-//     },
-//     {
-//       'name': 'Humor',
-//       'children': [
-//         {
-//           'name': 'test',
-//           'amount': 1,
-//           'children': [
-//             {
-//               'name': 'Dit is een test',
-//               'author': 'Joopie'
-//             }
-//           ]
-//         }
-//       ]
-//     }
-//   ]
-// }
-
 function init () {
   fetch('https://raw.githubusercontent.com/jeroentvb/frontend-data/master/data.json')
     .then(res => res.json())
@@ -149,15 +77,14 @@ function render (dataset) {
 
   const svg = createSvg(width, height)
 
-  function zoomed () {
-    svg.attr('transform', d3.event.transform)
-  }
-  const zoom = d3.zoom().on('zoom', zoomed)
-
-  svg.call(zoom)
+  // function zoomed () {
+  //   svg.attr('transform', d3.event.transform)
+  // }
+  // const zoom = d3.zoom().on('zoom', zoomed)
+  //
+  // svg.call(zoom)
 
   const tooltip = createTooltip()
-
   const mouseover = d => {
     tooltip.transition()
       .duration(200)
@@ -166,7 +93,6 @@ function render (dataset) {
       .style('left', `${d.x}px`)
       .style('top', `${d.y - (d.value + 40)}px`)
   }
-
   const mouseout = d => {
     tooltip.transition()
       .duration(200)

@@ -2,6 +2,12 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+select {
+  min-width: 12em;
+  font-size: 1em;
+  padding: .2em;
+}
+
 .tooltip {
   position: absolute;
   pointer-events: none;
