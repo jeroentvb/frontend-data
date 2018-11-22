@@ -1,28 +1,14 @@
 /* global d3, fetch */
 'use strict'
 
-var allData
+import {
+  getSelectedGenre,
+  formatBooks,
+  getSize
+} from './helper.js'
 const width = 932
-const height = width
+const height = width - 300
 const svg = createSvg(width, height)
-const select = document.getElementById('select-genre')
-
-select.addEventListener('change', () => {
-  let selectedGenre = select.value
-  let data = getSelectedGenre(selectedGenre, allData)
-  clear()
-  render(data)
-})
-
-function getSelectedGenre (selectedGenre, dataset) {
-  let data
-  dataset.children.forEach((genre, index) => {
-    if (genre.name.toLowerCase() === selectedGenre) {
-      data = genre
-    }
-  })
-  return data
-}
 
 function init () {
   fetch('https://raw.githubusercontent.com/jeroentvb/frontend-data/master/data.json')
@@ -33,6 +19,16 @@ function init () {
       render(dataset)
     })
     .catch(err => console.error(err))
+
+  var allData
+  const select = document.getElementById('select-genre')
+
+  select.addEventListener('change', () => {
+    let selectedGenre = select.value
+    let data = getSelectedGenre(selectedGenre, allData)
+    clear()
+    render(data)
+  })
 }
 
 function formatData (dataset) {
@@ -57,7 +53,7 @@ function formatData (dataset) {
     .map(d => d.data)
     // Set the mimimus amount of titles that a word has to have
     .filter(d => {
-      if (d.amount > 5) return true
+      if (d.amount > 4) return true
     })
     // Some kind of sorting, doesn't seem to be essential
     // .sort((a, b) => a.genre.localeCompare(b.genre))
@@ -77,6 +73,13 @@ function createTooltip () {
   return d3.select('body')
     .append('div')
     .attr('class', 'tooltip')
+    .style('opacity', 0)
+}
+
+function addInfo () {
+  return d3.select('body')
+    .append('div')
+    .attr('id', 'info')
     .style('opacity', 0)
 }
 
@@ -111,14 +114,22 @@ function render (dataset) {
     tooltip.transition()
       .duration(200)
       .style('opacity', 0.9)
-    tooltip.html(`Komt ${d.value} keer voor in het genre ${d.data.genre.toLowerCase()}`)
+    tooltip.html(`Het woord <i>${d.data.name}</i> komt ${d.value} keer voor in het genre <i>${d.data.genre.toLowerCase()}</i>`)
       .style('left', `${d.x}px`)
-      .style('top', `${d.y - (d.value + 40)}px`)
+      .style('top', `${d.y - (d.value - 40)}px`)
   }
   const mouseout = d => {
     tooltip.transition()
       .duration(200)
       .style('opacity', 0)
+  }
+
+  const infoBox = addInfo()
+  const click = d => {
+    infoBox.transition()
+      .duration(400)
+      .style('opacity', 0.9)
+    infoBox.html(formatBooks(d.data.books))
   }
 
   const leaf = svg.selectAll('g')
@@ -127,35 +138,38 @@ function render (dataset) {
     .attr('transform', d => `translate(${d.x + 1},${d.y + 1})`)
 
   leaf.append('circle')
-    // .attr('id', d => (d.leafUid = DOM.uid('leaf')).id)
-    .attr('r', d => d.value)
+    .attr('r', 0)
     .attr('fill-opacity', 0.7)
-    .attr('fill', d => color(d.data.genre))
     .on('mouseover', mouseover)
     .on('mouseout', mouseout)
-
-  // Doesn't work due to DOM. not existing in the browser, does exist in observablehq
-  // leaf.append('clipPath')
-  //   .attr('id', d => (d.clipUid = DOM.uid('clip')).id)
-  //   .append('use')
-  //   .attr('xlink:href', d => d.leafUid.href)
+    .on('click', click)
+    .transition()
+    .duration(600)
+    .attr('r', d => {
+      if (dataset.name === 'genres') {
+        return d.value
+      } else {
+        return getSize(d)
+      }
+    })
+    .attr('fill', d => color(d.data.genre))
 
   leaf.append('text')
-    .attr('font-size', d => d.value)
     .style('pointer-events', 'none')
-    // Doesn't really do much because the code above doesn't work
-    // .attr('clip-path', d => d.clipUid)
     .selectAll('tspan')
     // If this isn't splitted, the text will run from up > down instead of left > right
-    .data(d => {
-      // console.log(d.data)
-      return d.data.name.split(/(?=[A-Z][^A-Z])/g)
-    })
+    .data(d => d.data.name.split(/(?=[A-Z][^A-Z])/g))
     .enter().append('tspan')
     .attr('x', 0)
     // Some math to position the text inside the bubble
     .attr('y', (d, i, nodes) => `${i - nodes.length / 2 + 0.8}em`)
     .text(d => d)
+
+  leaf.selectAll('text')
+    .attr('font-size', 0)
+    .transition()
+    .duration(600)
+    .attr('font-size', d => d.value)
 
   // Add tooltip on hover
   leaf.append('name')
@@ -168,27 +182,28 @@ function clear (data) {
   svg.selectAll('g').remove()
 }
 
-function update (dataset) {
-  const data = formatData(dataset)
-  const pack = packData(data)
-  const format = d3.format(',d')
-  const root = pack(data)
-  const color = d3.scaleOrdinal().range(d3.schemeCategory10)
-
-  const leaves = svg.selectAll('g')
-    .data(root.leaves())
-
-  leaves
-    .enter().append('g')
-    .attr('transform', d => `translate(${d.x + 1},${d.y + 1})`)
-    .append('circle')
-    .attr('r', d => d.value)
-    .attr('fill-opacity', 0.7)
-    .attr('fill', d => color(d.data.genre))
-
-  leaves
-    .exit()
-    .remove()
-}
+// Spent days trying to get this working.
+// function update (dataset) {
+//   const data = formatData(dataset)
+//   const pack = packData(data)
+//   const format = d3.format(',d')
+//   const root = pack(data)
+//   const color = d3.scaleOrdinal().range(d3.schemeCategory10)
+//
+//   const leaves = svg.selectAll('g')
+//     .data(root.leaves())
+//
+//   leaves
+//     .enter().append('g')
+//     .attr('transform', d => `translate(${d.x + 1},${d.y + 1})`)
+//     .append('circle')
+//     .attr('r', d => d.value)
+//     .attr('fill-opacity', 0.7)
+//     .attr('fill', d => color(d.data.genre))
+//
+//   leaves
+//     .exit()
+//     .remove()
+// }
 
 init()
