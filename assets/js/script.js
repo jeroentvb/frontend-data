@@ -1,11 +1,37 @@
 /* global d3, fetch */
 'use strict'
 
+var allData
+const width = 932
+const height = width
+const svg = createSvg(width, height)
+const select = document.getElementById('select-genre')
+
+select.addEventListener('change', () => {
+  let selectedGenre = select.value
+  let data = getSelectedGenre(selectedGenre, allData)
+  clear()
+  render(data)
+})
+
+function getSelectedGenre (selectedGenre, dataset) {
+  let data
+  dataset.children.forEach((genre, index) => {
+    if (genre.name.toLowerCase() === selectedGenre) {
+      data = genre
+    }
+  })
+  return data
+}
+
 function init () {
   fetch('https://raw.githubusercontent.com/jeroentvb/frontend-data/master/data.json')
     .then(res => res.json())
     // .then(dataset => datavis(dataset))
-    .then(dataset => render(dataset))
+    .then(dataset => {
+      allData = dataset
+      render(dataset)
+    })
     .catch(err => console.error(err))
 }
 
@@ -54,28 +80,24 @@ function createTooltip () {
     .style('opacity', 0)
 }
 
-function render (dataset) {
-  const width = 932
-  const height = width
-
-  // Create dataformat
-  const data = formatData(dataset)
-
-  const pack = data => d3.pack()
+function packData (data) {
+  return data => d3.pack()
     .size([width - 250, height - 2])
     .padding(3)(d3.hierarchy({ children: data })
       .sum(d => d.value))
+}
 
+function render (dataset) {
+  // Create dataformat
+  const data = formatData(dataset)
+  // Pack data
+  const pack = packData(data)
   // Format the value to a readable number
   const format = d3.format(',d')
-
   // Create const root and call pack() with the formatted data
   const root = pack(data)
-
   // I guess this is scale and range and assinging color
   const color = d3.scaleOrdinal().range(d3.schemeCategory10)
-
-  const svg = createSvg(width, height)
 
   // function zoomed () {
   //   svg.attr('transform', d3.event.transform)
@@ -140,6 +162,33 @@ function render (dataset) {
     .text(d => {
       return `${d.data.genre}\n${format(d.value)}`
     })
+}
+
+function clear (data) {
+  svg.selectAll('g').remove()
+}
+
+function update (dataset) {
+  const data = formatData(dataset)
+  const pack = packData(data)
+  const format = d3.format(',d')
+  const root = pack(data)
+  const color = d3.scaleOrdinal().range(d3.schemeCategory10)
+
+  const leaves = svg.selectAll('g')
+    .data(root.leaves())
+
+  leaves
+    .enter().append('g')
+    .attr('transform', d => `translate(${d.x + 1},${d.y + 1})`)
+    .append('circle')
+    .attr('r', d => d.value)
+    .attr('fill-opacity', 0.7)
+    .attr('fill', d => color(d.data.genre))
+
+  leaves
+    .exit()
+    .remove()
 }
 
 init()
