@@ -16,6 +16,28 @@ const genres = [
   'humor'
 ]
 
+const excludedWords = [
+  'de',
+  'het',
+  'een',
+  'the',
+  'van',
+  'bij',
+  'a',
+  'en',
+  'in',
+  '&',
+  'voor',
+  'ik',
+  'is',
+  'je',
+  'op',
+  'met',
+  'te',
+  'mijn',
+  'niet'
+]
+
 function search (page, genre) {
   return new Promise((resolve, reject) => {
     client.get('search', {
@@ -58,25 +80,7 @@ function getAndParseData (pages, genre, books, words) {
                 title.forEach(word => {
                   word = word.toLowerCase()
                   if (
-                    word !== 'de' &&
-                    word !== 'het' &&
-                    word !== 'een' &&
-                    word !== 'the' &&
-                    word !== 'van' &&
-                    word !== 'bij' &&
-                    word !== 'a' &&
-                    word !== 'en' &&
-                    word !== 'in' &&
-                    word !== '&' &&
-                    word !== 'voor' &&
-                    word !== 'ik' &&
-                    word !== 'is' &&
-                    word !== 'je' &&
-                    word !== 'op' &&
-                    word !== 'met' &&
-                    word !== 'te' &&
-                    word !== 'mijn' &&
-                    word !== 'niet' &&
+                    excludedWords.indexOf(word) === -1 &&
                     isNaN(word)
                   ) {
                     words.push(word.toLowerCase())
