@@ -96,20 +96,6 @@ function getAndParseData (pages, genre, books, words) {
   })
 }
 
-function init () {
-  const genres = [
-    'western',
-    'sport',
-    'humor'
-  ]
-
-  genres.forEach((genre, index) => {
-    setTimeout(() => {
-      getAllData(genre)
-    }, index * (genres.length * 20000))
-  })
-}
-
 function getAllData (genre) {
   search(1, genre)
     .then(results => {
@@ -161,6 +147,20 @@ function getAllData (genre) {
         .catch(err => console.error(err))
     })
     .catch(err => console.error(err))
+}
+
+function init () {
+  const genres = [
+    'western',
+    'sport',
+    'humor'
+  ]
+
+  genres.forEach((genre, index) => {
+    setTimeout(() => {
+      getAllData(genre)
+    }, index * (genres.length * 20000))
+  })
 }
 
 init()
