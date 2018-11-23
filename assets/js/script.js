@@ -16,7 +16,6 @@ const svg = createSvg(width, height)
 function init () {
   fetch('https://raw.githubusercontent.com/jeroentvb/frontend-data/master/data.json')
     .then(res => res.json())
-    // .then(dataset => datavis(dataset))
     .then(dataset => {
       allData = dataset
       render(dataset)
@@ -35,20 +34,19 @@ function init () {
 }
 
 function formatData (dataset) {
-  return d3.hierarchy(dataset) // await require('@observablehq/flare')
+  return d3.hierarchy(dataset)
     // array with last items in json tree
     .leaves()
     .map(d => {
       let p = d
-      // make p the 2 level deep element.
       while (p.depth > 2) p = p.parent
       // .ancestors() gets all objects above object in tree
       // .reverse() reverses the order. Instead of down > up it goes up > down
       // .map(a => a.data.name) Gets the names of all objects in the tree
       // .join() concats the names to a single string
+
       // d.data.name = d.ancestors().reverse().map(a => a.data.name).join(' > ') < f*cks the naming up
       // d.data.name = d.data.name
-      // Make the group (genre) name the name of the p object
       d.data.genre = p.parent.data.name
       return d
     })
@@ -185,28 +183,27 @@ function clear (data) {
   svg.selectAll('g').remove()
 }
 
-// Spent days trying to get this working.
-// function update (dataset) {
-//   const data = formatData(dataset)
-//   const pack = packData(data)
-//   const format = d3.format(',d')
-//   const root = pack(data)
-//   const color = d3.scaleOrdinal().range(d3.schemeCategory10)
-//
-//   const leaves = svg.selectAll('g')
-//     .data(root.leaves())
-//
-//   leaves
-//     .enter().append('g')
-//     .attr('transform', d => `translate(${d.x + 1},${d.y + 1})`)
-//     .append('circle')
-//     .attr('r', d => d.value)
-//     .attr('fill-opacity', 0.7)
-//     .attr('fill', d => color(d.data.genre))
-//
-//   leaves
-//     .exit()
-//     .remove()
-// }
+function update (dataset) {
+  const data = formatData(dataset)
+  const pack = packData(data)
+  const format = d3.format(',d')
+  const root = pack(data)
+  const color = d3.scaleOrdinal().range(d3.schemeCategory10)
+
+  const leaves = svg.selectAll('g')
+    .data(root.leaves())
+
+  leaves
+    .enter().append('g')
+    .attr('transform', d => `translate(${d.x + 1},${d.y + 1})`)
+    .append('circle')
+    .attr('r', d => d.value)
+    .attr('fill-opacity', 0.7)
+    .attr('fill', d => color(d.data.genre))
+
+  leaves
+    .exit()
+    .remove()
+}
 
 init()
