@@ -40,7 +40,7 @@ Echter nadat ik de data voor het eerst in mijn visualisatievorm had bleek dat ee
 ![concept 2.5](/doc/img/concept2.5.jpg)
 
 ## Data ophalen
-Deze code is deels hetzelfde/gerecycled van functional-programming. het enige verschil is het omvormen van data (wat neer komt op ongeveer 50%).
+Deze code is deels hetzelfde/gerecycled van functional-programming. Het enige verschil is het omvormen van data (wat neer komt op ongeveer 50%).
 
 ## Data visualiseren
 Dit proces was veel ingewikkelder dan gehoopt.
@@ -55,9 +55,9 @@ Er werd in de voorbeeldcode van Mike best wel veel gedaan te worden met de data 
 Dit duurde allemaal best lang waardoor ik in mijn optiek wat tijd ben verloren.
 
 ### Data visualiseren
-Het weergeven van de data was niet zo ingewikkeld. Wat wel erg lastig was was het updaten van data.
+Het weergeven van de data was niet zo ingewikkeld. Wat wel erg lastig was, was het updaten van data.
 Het was de bedoeling dat je een genre kon selecteren en dat de data zou aanpassen met het enter, update en exit principe.
-Ik heb op zijn minst een dag tijd er aan besteed en toen lukte het me nog steeds niet. [Dit](https://github.com/jeroentvb/frontend-data/blob/37cdd0f9a980a043c9e888610d8d299d5be00bd6/assets/js/script.js#L186-L207) is hoe ver ik daarmee ben gekomen.
+Ik heb op zijn minst een dag tijd eraan besteed en toen lukte het me nog steeds niet. [Dit](https://github.com/jeroentvb/frontend-data/blob/37cdd0f9a980a043c9e888610d8d299d5be00bd6/assets/js/script.js#L186-L207) is hoe ver ik daarmee ben gekomen.
 Op gegeven moment heb ik het opgegeven en heb ik een [clear](https://github.com/jeroentvb/frontend-data/blob/37cdd0f9a980a043c9e888610d8d299d5be00bd6/assets/js/script.js#L182-L184) functie gemaakt die de svg leeg maakt, waarna ik de [render]() functie opnieuw aanroep om de svg op te bouwen met nieuwe data.
 
 ### kleine toevoegingen
