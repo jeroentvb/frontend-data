@@ -1,6 +1,9 @@
 /* global d3, fetch */
 'use strict'
 
+/* Used bubble-chart by Mike Bostock as an example/starting point
+https://beta.observablehq.com/@mbostock/d3-bubble-chart */
+
 import {
   getSelectedGenre,
   formatBooks,
