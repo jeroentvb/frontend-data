@@ -1,5 +1,6 @@
 # frontend-data 📊
-🎓 A repo for an interactive datavisualisation made with d3
+![datavis](/doc/img/datavis.jpg)  
+> .enter().append().exit().remove()
 
 ## Usage
 To use the application enter the following commands in your terminal:
