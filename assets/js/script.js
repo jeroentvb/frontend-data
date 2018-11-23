@@ -27,18 +27,18 @@ function init () {
 
   select.addEventListener('change', () => {
     let selectedGenre = select.value
+    let data = getSelectedGenre(selectedGenre, allData)
+    clear()
     if (selectedGenre === 'all-genres') {
       render(allData)
       return
     }
-    let data = getSelectedGenre(selectedGenre, allData)
-    clear()
     render(data)
   })
 }
 
 function formatData (dataset) {
-  return d3.hierarchy(dataset)\
+  return d3.hierarchy(dataset)
     .leaves()
     .map(d => {
       let p = d

@@ -151,8 +151,7 @@ function getAllData (genre) {
 
 function init () {
   const genres = [
-    'detective'
-    // 'stripverhaal'
+    'stripverhaal'
   ]
 
   genres.forEach((genre, index) => {
