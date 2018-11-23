@@ -10,34 +10,6 @@ const client = new OBA({
   secret: process.env.SECRET_KEY
 })
 
-const genres = [
-  'western',
-  'sport',
-  'humor'
-]
-
-const excludedWords = [
-  'de',
-  'het',
-  'een',
-  'the',
-  'van',
-  'bij',
-  'a',
-  'en',
-  'in',
-  '&',
-  'voor',
-  'ik',
-  'is',
-  'je',
-  'op',
-  'met',
-  'te',
-  'mijn',
-  'niet'
-]
-
 function search (page, genre) {
   return new Promise((resolve, reject) => {
     client.get('search', {
@@ -57,6 +29,28 @@ function search (page, genre) {
 }
 
 function getAndParseData (pages, genre, books, words) {
+  const excludedWords = [
+    'de',
+    'het',
+    'een',
+    'the',
+    'van',
+    'bij',
+    'a',
+    'en',
+    'in',
+    '&',
+    'voor',
+    'ik',
+    'is',
+    'je',
+    'op',
+    'met',
+    'te',
+    'mijn',
+    'niet'
+  ]
+
   return new Promise((resolve, reject) => {
     for (let i = 1; i < pages + 1; i++) {
       setTimeout(() => {
@@ -102,7 +96,13 @@ function getAndParseData (pages, genre, books, words) {
   })
 }
 
-function init (genres) {
+function init () {
+  const genres = [
+    'western',
+    'sport',
+    'humor'
+  ]
+
   genres.forEach((genre, index) => {
     setTimeout(() => {
       getAllData(genre)
@@ -163,4 +163,4 @@ function getAllData (genre) {
     .catch(err => console.error(err))
 }
 
-init(genres)
+init()
