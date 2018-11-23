@@ -151,9 +151,12 @@ function getAllData (genre) {
 
 function init () {
   const genres = [
-    'western',
-    'sport',
-    'humor'
+    // 'detective',
+    'roman',
+    'bijbels-verhaal',
+    'school',
+    'erotiek',
+    'stripverhaal'
   ]
 
   genres.forEach((genre, index) => {

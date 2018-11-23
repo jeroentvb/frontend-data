@@ -18,6 +18,7 @@ select {
 header {
   display: flex;
   flex-direction: row;
+  z-index: 9999;
 }
 
 .tooltip {
